@@ -399,10 +399,18 @@ a img.aligncenter {
 
 
 .in-box{
-	/*background: linear-gradient(to left, #FFD700,#4b16f9);  */
+	background: linear-gradient(to left, #f7edb5,#b9a5f8);  */
 	display: inline-block;
 	padding: 40px;
 	position: relative;
+    /*background: rgb(207, 219, 224);*/
+    font-family: 'Police Sans', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+    padding: 10px;
+	color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+	font-weight: 800;
 	/*border: 20px solid #b6a1fd;*/
     /*opacity: 0.5 ;*/
 }
@@ -423,24 +431,8 @@ a img.aligncenter {
 	font-weight: 900;
     
 }
-.in-box p{
-    font-family: 'Police Sans', 'Arial Narrow', Arial, sans-serif;
-	font-size: 20px;
-	color: rgb(74, 4, 4);
-	font-weight: 800;
-    
-}
 
-/*.in-box a{
-	background: linear-gradient(to left, #FFD700,#adf916);  
-	font-size: 20px;
-	padding: 10px 20px;
-	color: white ;
-    font-weight: 800;
-}
-.in-box a:hover{
-	color:#f6f7f7;
-}*/
+
 .hvr-rectangle-out {
     display: inline-block;
     vertical-align: middle;
@@ -605,20 +597,19 @@ xclip
 }
 
 .section.lb {
-
-    background-color: white-space;}
+    background: whitesmoke;}
 .section.lb p{
     color: black;
     font-family:'Open Sans', sans-serif;
     text-align: justify;
     line-height: 1.6rem;
 }
-.section.lb h2{
-    color: #000F52;
-    font-family: 'Montserrat', sans-serif;
-    font-style: oblique;
-    font-size: 40px;
-    font-weight: 700;
+.message-box h2{
+    font-family: 'Montserrat',  sans-serif;
+    
+	color: #000F52;
+	font-size: 40px;
+	font-weight: 900;
 }
 
 .information li{
@@ -658,7 +649,7 @@ xclip
 	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
 }
-.right-box-pro img{
+.right-box-pro video{
 	position: relative;
 	z-index: 2;
 }
@@ -706,15 +697,6 @@ xclip
     margin-bottom: 70px;
 }
 
-/*.services-inner-box li {
-    font-family: 'Nunito',  sans-serif;
-    color: rgb(2, 3, 45) ;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 1.5rem;
-    list-style-type:none;
-    margin: 0;
-}*/
 .services-inner-box h2{
     font-family: 'Montserrat',  sans-serif;
     
@@ -841,6 +823,37 @@ xclip
     Etapes
 -------------------------------------------------------------------*/
 
+.section-title h3 {
+    font-family: 'Montserrat',  sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 0 0 10px;
+    padding: 0;
+    text-transform: none;
+}
+.section-title h2 {
+    font-family: 'Montserrat',  sans-serif;
+    text-align: center;
+    text-decoration:none;
+    padding-bottom: 4%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+    text-transform: none;
+}
+.section-title span{
+    color: #e7f826fe;
+    font-weight: 600;
+}
+.section-title p {
+    font-family: 'Open Sans',  sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    /*text-align: justify;*/
+    line-height: 1.6rem;
+}
 .timeline {
     position: relative;
     padding: 20px 10px;
